@@ -1,0 +1,38 @@
+.skill-container{
+    justify-content: center;
+    display: grid;
+    padding: 1rem;
+    margin: 2rem 0;
+}
+.skill-head{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.skill-content{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+.skill-content h4{
+    margin: 0 2rem;
+}
+.skill-item{
+    margin: 0 0.5rem;
+}
+.connections{
+    text-align: center;
+    margin-top: 4rem ;
+}
+.connections a{
+    margin: 0 2rem;
+}
+@media screen and (max-width:740px) {
+      
+    .skill-content{
+       flex-direction: column;
+        
+    }
+    .skill-item {
+        margin: 0.5rem 0;
+    }
+}

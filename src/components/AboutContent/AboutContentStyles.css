@@ -1,0 +1,38 @@
+.about{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.about .left{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 350px;
+}
+.about .left p{
+    margin: 1.2rem 0;
+}
+.about .right{
+    max-width: 700px;
+}
+.right img{
+    width: 40%;
+    margin: auto;
+    border-radius: 50%;
+    padding: 1rem 0;
+}
+
+
+
+@media screen and (max-width:740px) {
+    .about{
+        flex-direction: column;
+    }
+    .skill-content{
+        grid-template-columns: 1fr;
+        
+    }
+}
