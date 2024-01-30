@@ -18,9 +18,14 @@ function AboutContent() {
                         team of professionals. Strong understanding of software development concepts and eagerness to learn new
                         technologies.
                     </p>
-                    <Link to={'/contact'}>
-                        <button className='btn'>Contact</button>
-                    </Link>
+                    <div className='about-btn'>
+                        <Link to={'/contact'} className='btn'>
+                            Contact
+                        </Link>
+                        <Link to={'https://drive.google.com/file/d/1VkJGH-CvUl033LnnBbL9At8OJDAZyprt/view?usp=sharing'}className='btn' target='_blank'>
+                            Resume
+                        </Link>
+                    </div>
                 </div>
                 <div className="right">
                     <img className='img' src={hero} alt='hero'></img>
@@ -28,7 +33,7 @@ function AboutContent() {
             </div>
             <Skills />
             <Certifications />
-            
+
         </>
 
     )

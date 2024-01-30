@@ -1,6 +1,6 @@
 import React from 'react'
 import './FooterStyles.css'
-import { FaGithub, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLinkedin, FaLocationArrow, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa'
 
 function Footer() {
     return (
@@ -8,13 +8,12 @@ function Footer() {
             <div className="footer-container">
                 <div className="left">
                     <div className="location">
-                        <FaHome
+                        <FaLocationArrow
                             size={20}
                             style={{ color: '#fff', marginRight: '2rem' }}
                         />
                         <div>
-                            <p>11-147/1, road no.2</p>
-                            <p>Narasaraopet</p>
+                            <p>Hyderabad</p>
                         </div>
                     </div>
                     <div className='phone'>

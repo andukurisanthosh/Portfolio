@@ -1,6 +1,7 @@
 .certificate-container{
-    justify-content: center;
-    display: grid;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
     margin: 2rem 0;
 }
@@ -11,10 +12,11 @@
 .certificate-item{
     display: flex;
     justify-content: space-between;
-    margin: 1rem 0;
-    align-items: center;
+    margin: auto;
+  
 }
-.certificate-item p{
-    margin: 0 3rem;
+.certificate-item p, a{
+    margin: 1rem 1rem;
     font-size: 1.2rem;
+    text-align: start;
 }
