@@ -5,6 +5,7 @@ import contact from './assets/connections.png'
 import todo from './assets/todomanager.png'
 import ecommers from './assets/ecommers.png'
 import food from './assets/food.png'
+import imagessearch from './assets/imagessearch.png'
 
 const ProjectData = [
     {
@@ -27,7 +28,7 @@ const ProjectData = [
         description:"This is a web application where you can perform different types of arithmetic operations",
         skills:["React.Js", "CSS"],
         Source:"https://github.com/andukurisanthosh/Calculator",
-        view:"https://visionary-pika-bc7371.netlify.app/"
+        view:"https://calculator-andu.netlify.app/"
     },
     {
         imgsrc:weather_app,
@@ -35,7 +36,7 @@ const ProjectData = [
         description:"Developed a web application that provides comprehensive weather information Globally.Incorporated temperature, wind speed, and climate details to deliver accurate and up to date weather data.",
         skills:["React.Js", "Node.Js", "CSS"],
         Source:"https://github.com/andukurisanthosh/weather-app",
-        view:"https://elaborate-sunflower-2c7aec.netlify.app/"
+        view:"https://weather-broadcasting-webapp-andu.netlify.app/"
     },
     {
         imgsrc:contact,
@@ -58,7 +59,15 @@ const ProjectData = [
         description:"A food delivery website is an online business that acts as an intermediary between consumers and food facilities. It allows consumers to submit orders to a participating food facility, and arranges for the delivery of the order.",
         skills:["JavaScript", "HTML", "CSS"],
         Source:"https://github.com/andukurisanthosh/FoodOrderingWebApp",
-        view:"https://thriving-moonbeam-bd77ec.netlify.app/"
+        view:"https://online-food-ordering-webapp-andu.netlify.app/"
+    },
+    {
+        imgsrc:imagessearch,
+        title:" Image Finder",
+        description:"This is a website where you can find different types of images of different categories",
+        skills:["React.JS", "CSS"],
+        Source:"https://github.com/andukurisanthosh/image-finder.git",
+        view:"https://image-finder-andu.netlify.app/"
     },
 ]
 
